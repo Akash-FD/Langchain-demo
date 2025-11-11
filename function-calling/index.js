@@ -1,7 +1,7 @@
 // import { GoogleGenAI } from "@google/genai";
 // import readlineSync from "readline-sync";
 // const ai = new GoogleGenAI({
-//   apiKey: "AIzaSyDZYV1NWNcDYPI8gSLw8RYxPCLcrAQ1Hmk",
+//   apiKey: "api_key",
 // });
 
 // const History = [];
@@ -63,7 +63,7 @@ const cryptoDeclaration = {
 };
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDZYV1NWNcDYPI8gSLw8RYxPCLcrAQ1Hmk", // replace with your real key
+  apiKey: "Api_key", // replace with your real key
 });
 
 async function Chatting(userProblem) {
